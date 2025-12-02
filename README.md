@@ -32,11 +32,12 @@ while throughput becomes much higher for bigger batches.
 
 ---
 
-## Graph
-
-Graph is generated directly inside the notebook using matplotlib.
 
 ---
+##  Benchmark Graph
+
+![Token Generation Latency Graph](results/graph.png)
+
 
 ## 🛠 Requirements
 
