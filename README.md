@@ -4,8 +4,6 @@ This project benchmarks **token generation latency** and **throughput** of a lan
 
 The experiment was executed on **Google Colab (Tesla T4 GPU)** using the fallback model **GPT-Neo 1.3B**, because LLaMA requires gated access.
 
----
-
 ##  Project Structure
 
 project-folder/
@@ -16,7 +14,6 @@ project-folder/
 └── results/
       └── llama_benchmark_results.csv # Benchmark output
 
----
 
 ## Results Summary
 
@@ -30,16 +27,12 @@ project-folder/
 Latency increases when batch size grows,  
 while throughput becomes much higher for bigger batches.
 
----
-
-
----
 ##  Benchmark Graph
 
 ![Token Generation Latency Graph](results/graph.png)
 
 
-## 🛠 Requirements
+##  Requirements
 
 - Python 3.10+
 - PyTorch (GPU)
@@ -48,14 +41,12 @@ while throughput becomes much higher for bigger batches.
 - Numpy
 - Matplotlib
 
----
 
-## 📥 Output File
+##  Output File
 
 Results saved in: results/llama_benchmark_results.csv
 
 
 ## Author
-
 **Pawan Dubey**  
 Token Generation Latency Benchmark (Python Project)
